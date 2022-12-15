@@ -1,0 +1,24 @@
+.neck-left {
+  position: absolute;
+  width: 120px;
+  height: 85px;
+  background-color: #4186bd;
+  bottom: -262px;
+  right: 112px;
+  border-color: #4186bd black black #4186bd;
+  border-style: solid;
+  border-radius: 25% 49% 37% 63% / 9% 43% 48% 77%;
+  transform: rotate(40deg);
+  z-index: 5;
+}
+
+.neck-right {
+  position: absolute;
+  width: 80px;
+  height: 62px;
+  background-color: #4186bd;
+  bottom: -245px;
+  right: 80px;
+  border-radius: 25% 46% 37% 62% / 9% 71% 28% 49%;
+  z-index: 4;
+}

@@ -1,0 +1,70 @@
+.body {
+  position: absolute;
+  width: 180px;
+  height: 141px;
+  background: rgb(159, 212, 220);
+  background: linear-gradient(
+    180deg,
+    rgba(159, 212, 220, 1) 69%,
+    rgba(99, 162, 185, 1) 87%
+  );
+  bottom: -360px;
+  right: 110px;
+  border-radius: 87% 27% 100% 85% / 100% 100% 100% 93%;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.wing-right {
+  position: absolute;
+  width: 33px;
+  height: 81px;
+  background: rgb(159, 212, 220);
+  background: linear-gradient(
+    180deg,
+    rgba(99, 162, 185, 1) 57%,
+    rgb(111, 177, 187) 69%
+  );
+  bottom: -320px;
+  right: 85px;
+  border-radius: 84% 59% 100% 98% / 25% 100% 100% 42%;
+}
+
+.wing-left {
+  position: absolute;
+  width: 57px;
+  height: 90px;
+  background: rgb(159, 212, 220);
+  background: linear-gradient(
+    180deg,
+    rgba(159, 212, 220, 1) 69%,
+    rgba(99, 162, 185, 1) 87%
+  );
+  bottom: -350px;
+  left: 140px;
+  z-index: 4;
+  border-radius: 84% 59% 100% 100% / 68% 100% 100% 100%;
+  transform: rotate(10deg);
+  border-style: solid;
+  border-color: rgba(159, 212, 220, 1) black black black;
+}
+
+.chest {
+  position: absolute;
+  width: 30px;
+  height: 42px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+.chest-left {
+  right: 40px;
+  bottom: 40px;
+  transform: rotate(10deg);
+}
+
+.chest-right {
+  right: -20px;
+  bottom: 65px;
+  transform: rotate(18deg);
+}
